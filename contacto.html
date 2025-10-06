@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sonrisa Sana - Contacto</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#13b6ec",
+            "background-light": "#f6f8f8",
+            "background-dark": "#101d22",
+          },
+          fontFamily: {
+            "display": ["Inter"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    .group .group-open\:block {
+        display: none;
+    }
+    .group.is-active .group-open\:block {
+        display: block;
+    }
+    .group .group-open\:hidden {
+        display: block;
+    }
+    .group.is-active .group-open\:hidden {
+        display: none;
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex min-h-screen w-full flex-col">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<div class="flex items-center gap-4">
+<svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z" fill="currentColor"></path>
+</svg>
+<h2 class="text-xl font-bold text-gray-900 dark:text-white">Sonrisa Sana</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Inicio</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Servicios</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Doctores</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Testimonios</a>
+<a class="text-sm font-medium text-primary dark:text-primary" href="#">Contacto</a>
+</nav>
+<button class="hidden md:flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold shadow-sm hover:opacity-90 transition-opacity">
+<span>Reservar Cita</span>
+</button>
+<button class="md:hidden text-gray-800 dark:text-gray-200">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+<div class="flex flex-col">
+<h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white tracking-tighter">Ponte en Contacto</h1>
+<p class="mt-4 text-lg text-gray-600 dark:text-gray-300">¿Tienes alguna pregunta o quieres agendar una cita? Completa el formulario y nuestro equipo se pondrá en contacto contigo lo antes posible.</p>
+<form class="mt-8 space-y-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="name">Nombre</label>
+<div class="mt-1">
+<input class="form-input w-full rounded border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" id="name" name="name" placeholder="Tu nombre completo" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="email">Correo electrónico</label>
+<div class="mt-1">
+<input class="form-input w-full rounded border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" id="email" name="email" placeholder="tu@email.com" type="email"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="phone">Teléfono</label>
+<div class="mt-1">
+<input class="form-input w-full rounded border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" id="phone" name="phone" placeholder="Tu número de teléfono" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="message">Mensaje</label>
+<div class="mt-1">
+<textarea class="form-textarea w-full rounded border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" id="message" name="message" placeholder="Escribe tu mensaje aquí..." rows="4"></textarea>
+</div>
+</div>
+<div>
+<button class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold text-white bg-primary hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-opacity" type="submit">
+                  Enviar Mensaje
+                </button>
+</div>
+</form>
+</div>
+<div class="space-y-8">
+<div>
+<h2 class="text-2xl font-bold text-gray-900 dark:text-white">Nuestras Ubicaciones</h2>
+<p class="mt-2 text-gray-600 dark:text-gray-300">Encuéntranos en nuestras dos convenientes ubicaciones. ¡Te esperamos!</p>
+<div class="mt-6 grid grid-cols-1 gap-8">
+<div class="space-y-4">
+<h3 class="text-xl font-bold text-primary">Zona Río</h3>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<h4 class="text-base font-medium text-gray-900 dark:text-white">Dirección</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400">Paseo de los Héroes 9350, Zona Urbana Rio, 22010 Tijuana, B.C.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<h4 class="text-base font-medium text-gray-900 dark:text-white">Teléfono</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400">(664) 123-4567</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
+<span class="material-symbols-outlined">email</span>
+</div>
+<div>
+<h4 class="text-base font-medium text-gray-900 dark:text-white">Correo</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400">zonario@sonrisasana.com</p>
+</div>
+</div>
+<div class="mt-4 w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+<iframe allowfullscreen="" class="w-full h-full" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.665798939634!2d-117.0270396848243!3d32.50917298105436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9487b47b41e6b%3A0x73a8f9a2f267a147!2sPaseo%20de%20los%20H%C3%A9roes%209350%2C%20Zona%20Urbana%20Rio%20Tijuana%2C%2022010%20Tijuana%2C%20B.C.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1678886400000!5m2!1sen!2sus" style="border:0"></iframe>
+</div>
+</div>
+<div class="space-y-4">
+<h3 class="text-xl font-bold text-primary">Colonia Federal</h3>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<h4 class="text-base font-medium text-gray-900 dark:text-white">Dirección</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400">Av. de la Amistad 1301, Federal, 22010 Tijuana, B.C.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<h4 class="text-base font-medium text-gray-900 dark:text-white">Teléfono</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400">(664) 987-6543</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
+<span class="material-symbols-outlined">email</span>
+</div>
+<div>
+<h4 class="text-base font-medium text-gray-900 dark:text-white">Correo</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400">federal@sonrisasana.com</p>
+</div>
+</div>
+<div class="mt-4 w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+<iframe allowfullscreen="" class="w-full h-full" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.123531393648!2d-117.02497868482397!3d32.52296198105021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9492a2a2a2a2b%3A0x8a8a8a8a8a8a8a8a!2sAv.%20de%20la%20Amistad%201301%2C%20Federal%2C%2022010%20Tijuana%2C%20B.C.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1678886400001!5m2!1sen!2sus" style="border:0"></iframe>
+</div>
+</div>
+</div>
+<div class="mt-8 flex items-center gap-4">
+<div class="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
+<span class="material-symbols-outlined">group</span>
+</div>
+<div class="flex items-center gap-3">
+<a class="w-8 h-8 flex items-center justify-center rounded-full bg-background-light dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors" href="#">
+<svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="w-8 h-8 flex items-center justify-center rounded-full bg-background-light dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors" href="#">
+<svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+</a>
+<a class="w-8 h-8 flex items-center justify-center rounded-full bg-background-light dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors" href="#">
+<svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.013-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.793 2.013 10.147 2 12.315 2zm-1.002 1.334a12.722 12.722 0 00-3.793.058c-1.018.046-1.58.196-2.028.365A3.504 3.504 0 004.1 4.939a3.504 3.504 0 00-.814 1.328c-.169.448-.319 1.01-.365 2.028a12.722 12.722 0 00-.058 3.793c0 2.43.012 2.783.058 3.793.046 1.018.196 1.58.365 2.028.196.52.48 1.005.814 1.328a3.504 3.504 0 001.328.814c.448.169 1.01.319 2.028.365a12.722 12.722 0 003.793.058c2.43 0 2.783-.012 3.793-.058 1.018-.046 1.58-.196 2.028-.365a3.504 3.504 0 001.328-.814 3.504 3.504 0 00.814-1.328c.169-.448.319-1.01.365-2.028a12.722 12.722 0 00.058-3.793c0-2.43-.012-2.783-.058-3.793-.046-1.018-.196-1.58-.365-2.028a3.504 3.504 0 00-.814-1.328 3.504 3.504 0 00-1.328-.814c-.448-.169-1.01-.319-2.028-.365A12.722 12.722 0 0014.11 3.334c-.985-.046-1.36-.058-3.793-.058zM12 7.82c-2.303 0-4.18 1.877-4.18 4.18s1.877 4.18 4.18 4.18 4.18-1.877 4.18-4.18-1.877-4.18-4.18-4.18zm0 1.334a2.846 2.846 0 100 5.692 2.846 2.846 0 000-5.692zM17.18 5.485a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+<h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white tracking-tighter">Nuestros Socios de Confianza</h2>
+<p class="mt-4 max-w-2xl mx-auto text-center text-lg text-gray-600 dark:text-gray-300">Trabajamos con las mejores marcas y proveedores para garantizar la más alta calidad en tu tratamiento.</p>
+<div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+<div class="flex justify-center">
+<img alt="Logo Socio 1" class="h-12 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCassaySJg7DU0PqlMzFX5f14zp1hqoowwlCeFtCEyBvJovAJiijgJTXJTg4YtvWgKeZB4s_ydviBfz0vjs2TbXWvMSdLX8So00v4Qufx4p8z0Ta0OVqLMLVYfG2wd_vDW2HwWounkRdP95vDILEuV8-4j6nwrS3xR_Nx-oCbdW2hS_1iHUE6h55Af0Rks6wYo0O3ZhxvfyE7Y9FrUI8UOTeXvSkALFs0ZiS4aN1o4Trw4WbUIQYsKnzDIRMyhLskIHvvEZQo59KOU"/>
+</div>
+<div class="flex justify-center">
+<img alt="Logo Socio 2" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD39RnsVWDVyXkm2KdGRfyHVPokjaSIhjxYkw2bIuix7O2PtwtT8CVI_n4SAfOMCOUwIX845-izqI2JzoYf5KiaHJnc8-M6pVF_6VIWIEl_hSAS2E5G1G5cwWoSFUv_YwYX_gMk_-yP6Ri4LnSY-xog9eTs12ZQZC8OAJxnJVimEpIhSjsR2w2dOdpK-Vad3Ti1xHPcEw5sRS_WrPCU-Y3e-h90cGZXBB9XY3YE1TV5tY9NXjX5Bnmo6c4JULIQ3HGcV-W1_SmySqM"/>
+</div>
+<div class="flex justify-center">
+<img alt="Logo Socio 3" class="h-16 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB4DsbLQOWfUUVZ0G38xycsOgElC8Yy4Zu-7TvAQnWZdes_nHfD8RH5-yTw1aToc9VhGnLpQZdPPyCBEBW2IMJ9patzf-q7p0xSVjSqzI3_QSFX1KRB9o3ii4rjmIztw4Sks6g88hUpKhUyXFJmxW3IA0WtGuv88NzJMNZWvTg1CRq-3za9ES9Wb-7wMhnOcblO3w8p3x80zjH5E8Bsm2YIg7Td9Ff4v_TkEYDlnmJXG2M5b4I45LMs0fSwgkTZdql2iFSDnJuazA"/>
+</div>
+<div class="flex justify-center">
+<img alt="Logo Socio 4" class="h-12 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7qfv773NlFhnK06du_3cQ0W06-vtFof-qfm3LGSLClmTK4uCqR2W57jqiaUpTgy5qpOCYtx-_rJl7VawsXL-of6agBK9oikenqzNJ44qJkb6aA5nlHjNj6S3noCD7TTanjYgxL1zDx3McdRYkEQ-ZM0d74UhBlZgRelj8ZbkgUq32U7P5sjg53h7mLLuzUpeaLKMBTYv8sFge7_tyAz6lJ9bbTEizL3iQQlOR5Q2E9gVlVNy4MhJNQrlzSg8W0v50Xtfay9OhaR8"/>
+</div>
+</div>
+</div>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+<h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white tracking-tighter">Preguntas Frecuentes (FAQ)</h2>
+<p class="mt-4 max-w-2xl mx-auto text-center text-lg text-gray-600 dark:text-gray-300">Encuentra respuestas rápidas a las preguntas más comunes sobre nuestros servicios y procedimientos.</p>
+<div class="mt-10 max-w-3xl mx-auto space-y-4">
+<div @click="open = !open" class="group border-b border-gray-200 dark:border-gray-800" x-data="{ open: false }">
+<button class="w-full flex justify-between items-center py-4 text-left text-lg font-medium text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors">
+<span>¿Cuál es el horario de atención de la clínica?</span>
+<span :class="{ 'rotate-180': open }" class="material-symbols-outlined transform transition-transform duration-300">expand_more</span>
+</button>
+<div class="pb-4 text-gray-600 dark:text-gray-300" x-collapse="" x-show="open">
+<p>Nuestro horario de atención es de Lunes a Viernes de 9:00 AM a 7:00 PM y los Sábados de 9:00 AM a 2:00 PM. Ambas sucursales manejan el mismo horario.</p>
+</div>
+</div>
+<div @click="open = !open" class="group border-b border-gray-200 dark:border-gray-800" x-data="{ open: false }">
+<button class="w-full flex justify-between items-center py-4 text-left text-lg font-medium text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors">
+<span>¿Cómo puedo agendar una cita?</span>
+<span :class="{ 'rotate-180': open }" class="material-symbols-outlined transform transition-transform duration-300">expand_more</span>
+</button>
+<div class="pb-4 text-gray-600 dark:text-gray-300" x-collapse="" x-show="open">
+<p>Puedes agendar una cita de tres maneras: llamando por teléfono a la sucursal de tu preferencia, usando el botón 'Reservar Cita' en nuestro sitio web, o llenando el formulario de contacto en esta página. Nuestro equipo confirmará tu cita a la brevedad.</p>
+</div>
+</div>
+<div @click="open = !open" class="group border-b border-gray-200 dark:border-gray-800" x-data="{ open: false }">
+<button class="w-full flex justify-between items-center py-4 text-left text-lg font-medium text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors">
+<span>¿Aceptan seguros dentales?</span>
+<span :class="{ 'rotate-180': open }" class="material-symbols-outlined transform transition-transform duration-300">expand_more</span>
+</button>
+<div class="pb-4 text-gray-600 dark:text-gray-300" x-collapse="" x-show="open">
+<p>Sí, aceptamos una amplia variedad de seguros dentales. Te recomendamos contactarnos con la información de tu proveedor para verificar la cobertura y los detalles específicos antes de tu cita.</p>
+</div>
+</div>
+<div @click="open = !open" class="group border-b border-gray-200 dark:border-gray-800" x-data="{ open: false }">
+<button class="w-full flex justify-between items-center py-4 text-left text-lg font-medium text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors">
+<span>¿Qué debo hacer en caso de una emergencia dental?</span>
+<span :class="{ 'rotate-180': open }" class="material-symbols-outlined transform transition-transform duration-300">expand_more</span>
+</button>
+<div class="pb-4 text-gray-600 dark:text-gray-300" x-collapse="" x-show="open">
+<p>Si tienes una emergencia dental fuera de nuestro horario de atención, te recomendamos acudir a la sala de emergencias más cercana. Para emergencias durante el horario de clínica, por favor llámanos inmediatamente para que podamos darte instrucciones y prepararnos para tu llegada.</p>
+</div>
+</div>
+</div>
+</div>
+</div></main>
+<footer class="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2">
+<svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z" fill="currentColor"></path>
+</svg>
+<span class="text-xl font-bold text-gray-900 dark:text-white">Sonrisa Sana</span>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-400">Cuidando tu sonrisa con la mejor tecnología y un equipo de profesionales apasionados.</p>
+<div class="flex gap-4 mt-2">
+<a class="text-gray-500 hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors" href="#"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"></path></svg></a>
+<a class="text-gray-500 hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors" href="#"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg></a>
+<a class="text-gray-500 hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors" href="#"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919C8.416 2.175 8.796 2.163 12 2.163zm0 1.802C9.042 3.965 8.71 3.977 7.538 4.03c-2.909.132-4.148 1.37-4.28 4.28C3.2 9.576 3.187 9.9 3.187 12c0 2.1.013 2.424.068 3.682.133 2.908 1.372 4.148 4.28 4.28C8.71 20.023 9.042 20.035 12 20.035s3.288-.012 4.462-.068c2.908-.132 4.148-1.372 4.28-4.28.055-1.258.068-1.582.068-3.682s-.013-2.424-.068-3.682c-.132-2.909-1.372-4.148-4.28-4.28C15.288 3.977 14.958 3.965 12 3.965zm0 2.88c-2.42 0-4.38 1.96-4.38 4.38s1.96 4.38 4.38 4.38 4.38-1.96 4.38-4.38-1.96-4.38-4.38-4.38zm0 7.162c-1.536 0-2.782-1.246-2.782-2.782s1.246-2.782 2.782-2.782 2.782 1.246 2.782 2.782-1.246 2.782-2.782 2.782zm4.965-7.51c-.815 0-1.475-.66-1.475-1.475s.66-1.475 1.475-1.475 1.475.66 1.475 1.475-.66 1.475-1.475 1.475z"></path></svg></a>
+</div>
+</div>
+<div>
+<h3 class="text-sm font-semibold text-gray-900 dark:text-white tracking-wider uppercase">Enlaces</h3>
+<ul class="mt-4 space-y-2">
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Inicio</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Servicios</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Doctores</a></li>
+<li><a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Contacto</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-sm font-semibold text-gray-900 dark:text-white tracking-wider uppercase">Contacto</h3>
+<ul class="mt-4 space-y-3">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">location_on</span>
+<span class="text-sm text-gray-600 dark:text-gray-400">Paseo de los Héroes 9350, Zona Rio, Tijuana</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">call</span>
+<span class="text-sm text-gray-600 dark:text-gray-400">(664) 123-4567</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">email</span>
+<span class="text-sm text-gray-600 dark:text-gray-400">contacto@sonrisasana.com</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-sm font-semibold text-gray-900 dark:text-white tracking-wider uppercase">Horario</h3>
+<ul class="mt-4 space-y-2 text-sm text-gray-600 dark:text-gray-400">
+<li>Lunes a Viernes: 9am - 7pm</li>
+<li>Sábado: 9am - 2pm</li>
+<li>Domingo: Cerrado</li>
+</ul>
+</div>
+</div>
+<div class="mt-8 border-t border-gray-200 dark:border-gray-800 pt-6 text-center text-sm text-gray-500 dark:text-gray-400">
+<p>© 2023 Sonrisa Sana. Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+</div>
+<script defer="" src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</body></html>
